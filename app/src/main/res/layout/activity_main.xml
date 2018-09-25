@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <Button
+        android:id="@+id/bt_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加数据" />
+     <Button
+         android:id="@+id/bt_insert_mult"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="添加多条数据" />
+     <Button
+         android:id="@+id/bt_updata"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="修改一条数据" />
+     <Button
+         android:id="@+id/bt_delete"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="删除一条数据" />
+     <Button
+         android:id="@+id/bt_delete_all"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="删除所有数据" />
+     <Button
+         android:id="@+id/bt_query"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="查询单条记录" />
+     <Button
+         android:id="@+id/bt_query_all"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="查询所有记录" />
+     <Button
+         android:id="@+id/bt_query_builder"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="使用queryBuilder" />
+</LinearLayout>
